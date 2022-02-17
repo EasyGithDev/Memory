@@ -18,12 +18,12 @@ body {
     margin: auto;
 }
 
-td {
+#board td {
     width: 100px;
     height: 100px;
     background-color: #6c757d1a;
 }
 
-a:hover {
+#board a:hover {
     cursor: pointer;
 }

@@ -13,6 +13,12 @@ switch ($action) {
 
         // Initialisation du jeu
         // ?action=start
+    case 'list':
+        echo json_encode($game->list());
+        break;
+
+        // Initialisation du jeu
+        // ?action=start
     case 'start':
         echo json_encode($game->start());
         break;

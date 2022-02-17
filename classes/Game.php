@@ -135,6 +135,20 @@ class Game
     }
 
     /**
+     * Retourne la liste des sessions
+     * @return array la liste des sessions
+     */
+    public function list(): array
+    {
+        $query = 'SELECT * FROM session ORDER BY start_at desc LIMIT 0,5';
+        $stm = $this->pdo->prepare($query);
+        $stm->execute();
+        $sessions = $stm->fetchAll();
+
+        return $sessions;
+    }
+
+    /**
      * @return boolean vrai si la session est valide, faux sinon
      */
     public function checkSession(int $session_id): bool

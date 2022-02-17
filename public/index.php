@@ -24,7 +24,7 @@
 
         <h1 class="h3 mb-3 fw-normal">Memory</h1>
 
-        <div class="mb-3">
+        <div id="board" class="mb-3">
 
             <table class="table-bordered border-primary">
                 <thead></thead>
@@ -33,14 +33,41 @@
 
         </div>
 
-        <div class="mb-3"></div>
+        <div class="w-100"></div>
 
+
+        <div class="mb-3">
+            <button id="start-btn" class="w-100 btn btn-lg btn-primary" type="button">Start</button>
         </div>
-        <button id="start-btn" class="w-100 btn btn-lg btn-primary" type="button">Start</button>
-        <div class="mb-3"></div>
+
+        <div class="w-100"></div>
+
+
         <div class="progress">
-            <div class="progress-bar" style="width:0%"></div>
+            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
         </div>
+
+        <div class="w-100"></div>
+
+        <div id="list" class="mb-3">
+            <table class="table table-bordered border-primary caption-top">
+                <caption>Game results</caption>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Start</th>
+                        <th>End</th>
+                        <th>Success</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="no-data">
+                        <td colspan="4">No results</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
 
     </main>
 
