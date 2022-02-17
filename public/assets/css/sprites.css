@@ -1,0 +1,80 @@
+.sprite {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url('/assets/img/fruits.png');
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  background-position: 0px 100px;
+}
+
+.pommer {
+  background-position: 0px 0px;
+
+}
+
+.banane {
+  background-position: 0px -100px;
+
+
+}
+
+.orange {
+  background-position: 0px -200px;
+
+}
+
+.citronv {
+  background-position: 0px -300px;
+
+}
+
+.grenade {
+  background-position: 0px -400px;
+
+}
+
+.pecheb {
+  background-position: 0px -500px;
+
+}
+
+.citronj {
+  background-position: 0px -600px;
+
+}
+
+.fraise {
+  background-position: 0px -700px;
+
+}
+
+.pommev {
+  background-position: 0px -800px;
+
+}
+
+.pechej {
+  background-position: 0px -900px;
+
+}
+
+.raisin {
+  background-position: 0px -1000px;
+
+}
+
+.pasteque {
+  background-position: 0px -1100px;
+
+}
+
+.figue {
+  background-position: 0px -1200px;
+
+}
+
+.poire {
+  background-position: 0px -1300px;
+
+}

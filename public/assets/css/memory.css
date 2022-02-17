@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 760px;
+    padding: 20px;
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color: #6c757d1a;
+}
+
+a:hover {
+    cursor: pointer;
+}
